@@ -23,6 +23,6 @@
 
     text-align: center;
 
-    position: relative;
+    position:fixed;
     float: right;
 }
