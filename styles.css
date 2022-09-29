@@ -13,3 +13,16 @@
     background-color: cyan;
     text-decoration: none;
 }
+
+#saint-img {
+    border-radius: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+    padding: 10px;
+
+    text-align: center;
+
+    position: relative;
+    float: right;
+}
