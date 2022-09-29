@@ -1,0 +1,15 @@
+.anchor {
+    display: inline-block;
+    color: cyan;
+    background-color: red;
+    text-decoration: none;
+    padding: 3px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.anchor:hover {
+    color: red;
+    background-color: cyan;
+    text-decoration: none;
+}
