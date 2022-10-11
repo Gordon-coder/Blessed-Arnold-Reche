@@ -7,6 +7,9 @@
         <title>Blessed Arnold Reche</title>
         
         <style>
+            * {
+                z-index: 1000;
+            }
             main {
                 position: fixed;
                 overflow: auto;
@@ -49,6 +52,12 @@
                 height: 430px;
             }
 
+            #bg {
+                position: fixed;
+                z-index: 999;
+                width: 100%;
+            }
+
             @media screen and (max-width: 580px) {
                 main {
                     position: static;
@@ -85,15 +94,17 @@
         <main>
             <h1>Blessed Arnold R&#232;che</h1>
             <div id="prayer">
-                &#60;--prayer goes here--&#62;
+                <h1>Prayer</h1>
+                <!--prayer goes here-->
             </div>
             <div id="writing">
-                &#60;--writing goes here--&#62;
+                <h1>Writing</h1>
+                <!--writing goes here-->
             </div>
             <br>
             <div id="biography">
                 <h1>Biography</h1>
-                &#60;--biography goes here--&#62;
+                <!--biography goes here-->
             </div>
             <p>
                 For more imformation, please visit:
@@ -116,5 +127,6 @@
                 </ul>
             </p>
         </main>
+        <img id="bg" alt="Background" src="img/BlessedArnoldReche.jpeg">
     </body>
 </html>
